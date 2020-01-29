@@ -1,0 +1,152 @@
+a{
+    text-decoration: none;
+}
+
+.container, .container li {
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+
+}
+
+.container ul{
+    margin: -12px 0px 0px -38px;
+}
+
+.login-search{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
+    height: 77px;
+    box-sizing: border-box;
+    padding: 23px 0px 0px 66px;
+    width: 100%;
+    /* position: fixed; */
+    align-items: center;
+    height: 80px;
+}
+
+.icons{
+    display: inline-block;
+    width: 13%;
+    margin-left: 98px;
+    height: 40px;
+
+}
+
+.instagram{
+    display: block;
+    width: 66%;
+    margin: -33px 0px 4px 52px;
+    border-left: 1px solid black;
+    box-sizing: border-box;
+    padding: 0px 12px;
+    height: 30px;
+}
+
+.inputsearch{
+    height: 28px;
+    margin-left: 137px;
+}
+
+.inputsearch img {
+    width:14px;
+    height:14px;
+    position: absolute;
+    margin:6px 0px 0px 58px;
+}
+
+.inputsearch img:focus{
+    margin: 6px 0px 0px 0px;
+}
+
+.search-bar{
+    outline: none;
+    border-radius: 4px;
+    height: 24px;
+    text-align: center;
+    background: #fafafa;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    width: 214px;
+}
+
+.search-bar:focus{
+    text-align: start;
+    background: white;
+    font-size: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.button{
+    background: rgba(var(--h5f,56,151,240),1);
+    color: white;
+    display: inline-block;
+    height: 28px;
+    width: 64px;
+    padding: 4px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-weight: 300;
+    border: 1px solid transparent;
+    margin-right: 10px;
+}
+
+.signup{
+    display: inline-block;
+    width: 64px;
+    height: 28px;
+    box-sizing: border-box;
+    padding: 0px;
+    color: rgba(var(--h5f,56,151,240),1);
+}
+
+.border{
+    border-bottom: 1px solid black;
+    opacity: 0.5;
+}
+
+
+.profile-informations{
+    background: rgba(var(--b3f,250,250,250),1);
+    width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.profile-image{
+    width: 15%;
+    margin: 60px 82px 0px 189px;
+}
+.profile-image img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+}
+
+
+.User-container{
+    margin: 57px 0px 0px 0px;
+
+}
+
+.perfil-name{
+    display: flex;
+}
+
+.perfil-name p{
+    font-size: 23px;
+}
+
+.perfil-name a{
+    margin: 22px 0px 0px 25px;
+}
+
+.followers-information li a{
+    color: black
+}
+
+span{
+    font-weight: bolder;
+}
